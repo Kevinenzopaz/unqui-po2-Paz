@@ -6,4 +6,8 @@ public class Counter {
 	public int cantidadDePares() {
 		return 2;
 	}
+	
+	public int cantidadDeImpares() {
+		return 1;
+	}
 }
