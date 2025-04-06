@@ -7,4 +7,5 @@ public class Counter {
 		return 2;
 	}
 	
+	
 }
