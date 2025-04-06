@@ -7,7 +7,4 @@ public class Counter {
 		return 2;
 	}
 	
-	public int cantidadDeImpares() {
-		return 1;
-	}
 }
