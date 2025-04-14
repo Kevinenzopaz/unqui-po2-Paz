@@ -35,9 +35,9 @@ class EquipoDeTrabajoTestCase {
 
         // Cálculo esperado dinámico (por si el test se ejecuta en el futuro)
           int sumaEdades = equipo.getIntegrantes()
-        						 .stream() //Convierte la lista en una secuencia de elementos para poder hacer operaciones funcionales como map, filter, sum, etc
-        					 	 .mapToInt(Persona::getEdad) //Transforma cada Persona del stream en su edad (un int).
-        					   	 .sum();//Suma todos los valores del IntStream.
+                  .stream() //Convierte la lista en una secuencia de elementos para poder hacer operaciones funcionales como map, filter, sum, etc
+                  .mapToInt(Persona::getEdad) //Transforma cada Persona del stream en su edad (un int).
+                  .sum();equipo.getIntegrantes(); //Suma todos los valores del IntStream.sum();
           
         //Una manera mas convencional poniendo las fechas a mano:
         //int sumaEdades = Period.between(LocalDate.of(2000, 5, 10), LocalDate.now()).getYears()
