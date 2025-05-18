@@ -1,4 +1,5 @@
 package ar.edu.unq.po2.tp7.composite.warcraft;
+import ar.edu.unq.po2.tp7.composite.interfaces.*;
 
 public class Caballero implements Personaje {
     @Override

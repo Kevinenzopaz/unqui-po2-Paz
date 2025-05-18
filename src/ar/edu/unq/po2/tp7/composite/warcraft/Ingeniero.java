@@ -1,5 +1,6 @@
 package ar.edu.unq.po2.tp7.composite.warcraft;
 
+import ar.edu.unq.po2.tp7.composite.interfaces.*;
 import java.util.ArrayList;
 import java.util.List;
 
